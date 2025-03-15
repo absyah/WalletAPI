@@ -137,8 +137,8 @@ curl -X GET http://localhost:3000/wallets/1/balance \
 ### **Setup the Project**
 
 ```sh
-git clone https://github.com/your-repo/wallet-api.git
-cd wallet-api
+git clone https://github.com/absyah/WalletAPI.git
+cd WalletAPI
 bundle install
 rails db:create db:migrate
 rails server
