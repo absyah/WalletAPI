@@ -158,4 +158,9 @@ User.create!(name: "John Doe", email: "user1@example.com", password: "password")
 User.create!(name: "Math Kuy", email: "user2@example.com", password: "password")
 ```
 
+### **Running Tests**
+
+```sh
+rspec
+```
 
