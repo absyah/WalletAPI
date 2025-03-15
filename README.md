@@ -1,14 +1,14 @@
-# Wallet API Documentation
+# 🪙 Wallet API Documentation
 
-## 1. Problem
+## 1. 🔥Problem
 
 Managing transactions between users, teams, and stocks requires a structured internal wallet system. Each entity should have its own wallet, capable of sending, receiving, and tracking balances securely.
 
-## 2. Solution
+## 2. 🚒 Solution
 
 This API provides an internal wallet system where users, teams, and stocks have their own wallets. Transactions (STI for deposits, withdrawals, and transfers) are securely recorded in a relational database with JWT-based authentication.
 
-## 3. Feature Description
+## 3. 🧯 Feature Description
 
 - **Wallet System**: Each entity (User, Team, Stock) has a wallet.
 - **Transaction Types**:
@@ -18,7 +18,7 @@ This API provides an internal wallet system where users, teams, and stocks have 
 - **Authentication**: JWT-based authentication to secure API endpoints.
 - **Balance Calculation**: Wallet balance is dynamically calculated from transaction records.
 
-## 4. Database Schema Design
+## 4. 🌄 Database Schema Design
 
 ### **Wallets Table**
 
@@ -66,7 +66,7 @@ This API provides an internal wallet system where users, teams, and stocks have 
 | company_name              | Integer | Team's name                                                    |
 
 
-## 5. API Endpoints and Example Requests
+## 5. 🔠 API Endpoints and Example Requests
 
 ### **Authentication**
 
@@ -132,7 +132,7 @@ curl -X GET http://localhost:3000/wallets/1/balance \
      -H "Authorization: Bearer YOUR_JWT_TOKEN"
 ```
 
-## 6. Getting Started
+## 6. 👷 Getting Started
 
 ### **Setup the Project**
 
